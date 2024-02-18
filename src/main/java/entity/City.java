@@ -11,6 +11,7 @@ import java.io.Serializable;
 @RequiredArgsConstructor
 @Getter
 @Setter
+@ToString
 public class City implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
